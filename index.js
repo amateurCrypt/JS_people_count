@@ -18,3 +18,7 @@ function reduction () {
     countEl.innerText = count;
 
 }
+
+function save() {
+    console.log(count)
+}
