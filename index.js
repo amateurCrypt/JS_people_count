@@ -28,6 +28,6 @@ function save() {
 
 function save() {
     let para = count + " - ";
-    saveEl.innerText += para;
+    saveEl.textContent += para;
     console.log(count)
 }
