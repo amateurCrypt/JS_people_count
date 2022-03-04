@@ -9,6 +9,8 @@ let countEl = document.getElementById("count-el");
 
 let saveEl = document.getElementById("save-el");
 
+let resetEl = document.getElementById("reset-el");
+
 let count = 0;
 
 function increment () {
@@ -30,4 +32,8 @@ function save() {
     let para = count + " - ";
     saveEl.textContent += para;
     console.log(count)
+}
+
+function reset() {
+    countEl.textContent = 0; // this line can be added in save function so that when 'save' is clicked, count goes to zero.
 }

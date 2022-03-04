@@ -33,10 +33,14 @@ button {
 }
 
 #reduction-btn {
-    background: rgb(7, 7, 7);
+    background: rgb(214, 166, 8);
 }
 
 #save-btn {
     background: darkgreen;
+}
+
+#reset-btn {
+    background: rgb(0, 0, 0);
 }
 
