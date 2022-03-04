@@ -36,4 +36,5 @@ function save() {
 
 function reset() {
     countEl.textContent = 0; // this line can be added in save function so that when 'save' is clicked, count goes to zero.
+    count = 0;
 }
